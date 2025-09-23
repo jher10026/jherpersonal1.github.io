@@ -1,0 +1,148 @@
+/* ===== Estilos globales ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Encabezado ===== */
+header {
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* ===== Menú de navegación ===== */
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #0077b6;
+  border-radius: 5px;
+}
+
+/* ===== Contenido principal ===== */
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ===== Tablas ===== */
+table {
+  width:auto;
+  border-collapse: collapse;
+  margin: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #0077b6;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* ===== Imágenes ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 10px 0;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  background: #0077b6;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+a {
+  display: inline-block;   /* para que se comporte como botón */
+  padding: 1px 2px;      /* espacio interno */
+  background: #0d507c;     /* color de fondo (azul) */
+  color: white;            /* color de texto */
+  text-decoration: none;   /* quitar subrayado */
+  border-radius: 0px;      /* bordes redondeados */
+  transition: background 0.3s; /* animación suave */
+}
+
+a:hover {
+  background: #217dbb;     /* cambia de color al pasar el mouse */
+}
+
+body.mine{
+    background-image: url(../PERSONAL/IMG/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+body.left{
+    background-image: url(../PERSONAL/IMG/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+body.mobil{
+    background-image: url(../PERSONAL/IMG/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+body.causa{
+    text-align: center;
+}
+body.lomo{
+    text-align: center;
+}
+body.ceviche{
+    text-align: center;
+}
